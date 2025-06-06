@@ -1,19 +1,25 @@
 import { useState } from "react";
 import "./App.css";
 import NavBar from "./components/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
-      <NavBar />
-      <div className="flex items-center justify-center">
-        <div>
-          <h1 className="text-3xl font-bold underline">Hello world!</h1>
-        </div>
+    <BrowserRouter>
+      <div className="min-h-screen flex flex-col">
+        <NavBar />
+        <main className="flex-grow pt-3">
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </main>
+        <Footer className="mt-auto" />
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
