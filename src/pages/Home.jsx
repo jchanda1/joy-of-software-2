@@ -1,11 +1,7 @@
+import Hero from "../components/Hero";
+
 const Home = () => {
-  return (
-    <div className="flex items-center justify-center">
-      <div>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      </div>
-    </div>
-  );
+  return <Hero />;
 };
 
 export default Home;

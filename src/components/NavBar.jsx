@@ -3,21 +3,23 @@ import ThemeToggle from "./ThemeToggle";
 const NavBar = () => {
   return (
     <div>
-      <div className="hidden md:navbar bg-base-100 shadow-sm">
+      <div className="hidden md:navbar bg-primary shadow-sm">
         {/** NavBar for Desktop */}
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">Joy Of Software</a>
+          <a className="btn btn-ghost text-xl text-primary-content">
+            Joy Of Software
+          </a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>About Me</a>
+              <a className="text-primary-content">About Me</a>
             </li>
             <li>
-              <a>YouTube</a>
+              <a className="text-primary-content">YouTube</a>
             </li>
             <li>
-              <a>Get In Touch</a>
+              <a className="text-primary-content">Get In Touch</a>
             </li>
             <li>
               <ThemeToggle />
