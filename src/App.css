@@ -1,9 +1,12 @@
 @import "tailwindcss";
+
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark;
 }
+
 @plugin "daisyui/theme" {
   name: "light";
+  default: true;
   color-scheme: "light";
   --color-base-100: oklch(100% 0 0);
   --color-base-200: oklch(98% 0 0);
@@ -33,4 +36,20 @@
   --border: 1px;
   --depth: 1;
   --noise: 0;
+  --web-page-bg: radial-gradient(
+    circle,
+    rgba(219, 219, 219, 0.26) 0%,
+    rgba(245, 231, 220, 1) 77%
+  );
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  prefersdark: true;
+  color-scheme: "dark";
+  --web-page-bg: radial-gradient(
+    circle,
+    rgba(33, 33, 48, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }

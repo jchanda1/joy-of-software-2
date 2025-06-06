@@ -1,7 +1,10 @@
 const Hero = () => {
   return (
     <div className="w-2/3 mx-auto">
-      <div className="lg:hero hidden  bg-base-200 mt-auto rounded-4xl">
+      <div
+        className="lg:hero hidden mt-auto rounded-4xl"
+        style={{ background: "var(--web-page-bg)" }}
+      >
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="/src/assets/avatar.png"
@@ -20,7 +23,10 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="lg:hidden hero bg-base-200 mt-auto rounded-4xl">
+      <div
+        className="lg:hidden hero bg-base-200 mt-auto rounded-4xl"
+        style={{ background: "var(--web-page-bg)" }}
+      >
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="/src/assets/avatar.png"
