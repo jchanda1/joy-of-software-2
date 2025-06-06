@@ -29,6 +29,7 @@ const NavBar = () => {
       </div>
 
       <div className="md:hidden navbar bg-primary shadow-sm">
+        {/** NavBar for Mobile/Tablet */}
         <div className="flex-1">
           <a className="btn btn-ghost text-xl">Joy Of Software</a>
         </div>

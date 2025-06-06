@@ -1,11 +1,11 @@
 const Hero = () => {
   return (
     <div className="w-2/3 mx-auto">
-      <div className="md:hero hidden  bg-base-200 mt-auto rounded-4xl">
+      <div className="lg:hero hidden  bg-base-200 mt-auto rounded-4xl">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="/src/assets/avatar.png"
-            className="max-w-80 rounded-full bg-[oklch(100%_0_0)] shadow-2xl"
+            className="max-w-70 rounded-full bg-[oklch(100%_0_0)] shadow-2xl"
           />
           <div className="pr-15">
             <h1 className="text-5xl font-bold">
@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="md:hidden hero bg-base-200 mt-auto rounded-4xl">
+      <div className="lg:hidden hero bg-base-200 mt-auto rounded-4xl">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="/src/assets/avatar.png"
