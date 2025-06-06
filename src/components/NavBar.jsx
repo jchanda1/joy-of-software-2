@@ -28,7 +28,7 @@ const NavBar = () => {
         </div>
       </div>
 
-      <div className="md:hidden navbar bg-base-100 shadow-sm">
+      <div className="md:hidden navbar bg-primary shadow-sm">
         <div className="flex-1">
           <a className="btn btn-ghost text-xl">Joy Of Software</a>
         </div>
