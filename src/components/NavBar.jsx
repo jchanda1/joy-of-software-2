@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
+import ThemeToggle from "./ThemeToggle";
 const NavBar = () => {
   return (
     <div>
@@ -17,6 +18,9 @@ const NavBar = () => {
             </li>
             <li>
               <a>Get In Touch</a>
+            </li>
+            <li>
+              <ThemeToggle />
             </li>
           </ul>
         </div>
