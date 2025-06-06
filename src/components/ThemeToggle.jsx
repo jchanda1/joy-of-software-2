@@ -10,7 +10,10 @@ const ThemeToggle = () => {
       <Icon className="swap-off h-6 w-6 fill-current" icon="tabler:sun-high" />
 
       {/* moon icon */}
-      <Icon className="swap-on h-6 w-6 fill-current" icon="tabler:moon" />
+      <Icon
+        className="swap-on h-6 w-6 fill-current text-primary-content"
+        icon="tabler:moon"
+      />
     </label>
   );
 };
