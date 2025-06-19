@@ -1,10 +1,17 @@
 const Hero = () => {
   return (
-    <div id="hero" className="max-w-11/12 w-9/10 mx-auto">
+    <div id="hero" className="w-full min-h-screen">
       {/*desktop hero*/}
       <div
-        className="lg:hero hidden mt-auto rounded-xl py-10"
-        style={{ background: "var(--web-page-bg)" }}
+        className="lg:hero hidden mt-auto rounded-xl py-10 min-h-screen"
+        style={{
+          background: "var(--web-page-bg)",
+          backgroundImage:
+            "linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('/src/assets/hero-image.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
       >
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
@@ -33,8 +40,15 @@ const Hero = () => {
           />
         </div>
         <div
-          className="hero bg-base-200 mt-20 rounded-4xl"
-          style={{ background: "var(--web-page-bg)" }}
+          className="hero bg-base-200 mt-20 rounded-4xl min-h-screen"
+          style={{
+            background: "var(--web-page-bg)",
+            backgroundImage:
+              "linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('/src/assets/hero-image.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <div className="hero-content flex-col lg:flex-row-reverse pt-16">
             <div>
