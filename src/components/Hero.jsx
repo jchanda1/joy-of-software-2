@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="max-w-11/12 lg:w-2/3 mx-auto">
+    <div className="max-w-11/12 lg:w-4/5 mx-auto">
       {/*desktop hero*/}
       <div
         className="lg:hero hidden mt-auto rounded-4xl"
