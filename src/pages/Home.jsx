@@ -1,7 +1,13 @@
+import AboutMe from "../components/AboutMe";
 import Hero from "../components/Hero";
 
 const Home = () => {
-  return <Hero />;
+  return (
+    <div className="flex flex-col gap-10">
+      <Hero />
+      <AboutMe />
+    </div>
+  );
 };
 
 export default Home;
