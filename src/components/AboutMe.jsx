@@ -2,7 +2,7 @@ const AboutMe = () => {
   const text = (
     <>
       <p className="text-2xl pb-5 font-bold">
-        I'm <span className="text-accent font-bold">Joyanto Chanda</span>,
+        I'm <span className="text-secondary font-bold">Joyanto Chanda</span>,
         full-stack software engineer since 2020.
       </p>
       <p className="text-lg pb-5">
@@ -43,13 +43,15 @@ const AboutMe = () => {
       </p>
       <div className="divider" />
       <div className="w-full flex justify-center">
-        <button className="btn btn-accent rounded-4xl w-60">Download CV</button>
+        <button className="btn btn-secondary rounded-4xl w-60">
+          Download CV
+        </button>
       </div>
     </>
   );
 
   return (
-    <div id="about-me" className="mx-auto w-9/10">
+    <div id="about-me" className="mx-auto w-9/10 pb-5">
       {/** Desktop Version */}
       <div
         className="lg:block hidden mt-auto rounded-xl"
@@ -61,7 +63,7 @@ const AboutMe = () => {
           </div>
           <div className="text-4xl font-bold absolute self-center leading-normal mb-0 mt-8">
             Who am I?
-            <div className="divider divider-accent w-20 mx-auto mt-0"></div>
+            <div className="divider divider-secondary w-20 mx-auto mt-0"></div>
           </div>
         </div>
         <div className="flex flex-row w-4/5 mx-auto space-x-5">
@@ -76,7 +78,7 @@ const AboutMe = () => {
       >
         <div className="w-4/5 mx-auto text-center">
           <p className="text-4xl font-bold">Who am I?</p>
-          <div className="divider divider-accent w-20 mx-auto" />
+          <div className="divider divider-secondary w-20 mx-auto" />
         </div>
         <div className="text-lg w-4/5 mx-auto">{text}</div>
         <div className="w-4/5 mx-auto">{summaryForm}</div>
