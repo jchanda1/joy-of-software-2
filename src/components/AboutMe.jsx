@@ -2,8 +2,8 @@ const AboutMe = () => {
   const text = (
     <>
       <p className="text-2xl pb-5 font-bold">
-        I'm <span className="text-secondary font-bold">Joyanto Chanda</span>,
-        full-stack software engineer since 2020.
+        Hi I'm <span className="text-primary font-bold">Joyanto Chanda! </span>
+        I've been a full-stack software engineer since 2020.
       </p>
       <p className="text-lg pb-5">
         As a Full-Stack Software Engineer, I work with a wide variety of

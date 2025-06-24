@@ -1,9 +1,9 @@
 const Hero = () => {
   return (
-    <div className="max-w-11/12 lg:w-4/5 mx-auto">
+    <div className="max-w-11/12 lg:w-9/10 mx-auto pt-5">
       {/*desktop hero*/}
       <div
-        className="lg:hero hidden mt-auto rounded-4xl"
+        className="lg:hero hidden mt-auto rounded-xl"
         style={{ background: "var(--web-page-bg)" }}
       >
         <div className="hero-content flex-col lg:flex-row-reverse">
