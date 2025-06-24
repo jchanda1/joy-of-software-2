@@ -13,12 +13,14 @@ const NavBar = () => {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="text-primary-content" href="#hero">
+              <a className="text-primary-content" href="/">
                 About Me
               </a>
             </li>
             <li>
-              <a className="text-primary-content">Current Projects</a>
+              <a className="text-primary-content" href="/currentprojects">
+                Current Projects
+              </a>
             </li>
             <li>
               <a className="text-primary-content">Get In Touch</a>

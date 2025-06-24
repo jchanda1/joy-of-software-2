@@ -3,6 +3,7 @@ import NavBar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import CurrentProjects from "./components/CurrentProjects";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <main className="flex-grow pt-3">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/currentprojects" element={<CurrentProjects />} />
           </Routes>
         </main>
         <Footer className="mt-auto" />
